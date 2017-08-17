@@ -1,0 +1,230 @@
+html, body, marquee, div, h1, a, p, nav,  header, footer, figure
+{
+	margin: 0;
+	padding: 0;
+}
+html
+{
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: normal;
+	font-size: 12px;
+	font-weight: normal;
+}
+body
+{
+	background-color: white;
+}
+header, footer
+{
+	background-color: #5B2AA8;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+a:hover 
+{
+	color: #6FA5FB;
+}
+nav a
+{
+	color: white;
+	text-decoration: none;
+}
+nav p
+{
+	display: inline-block;
+	padding: 10px;
+	font-size: 15px;
+	margin-top: 25px;
+}
+marquee
+{
+	font-size: 20px;
+	padding: 10px;
+}
+div
+{
+	background-color: #812FB7;
+}
+div a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+div.left
+{
+	float: left;
+	width: 25%;
+}
+div ul, li
+{
+	list-style-type: none;
+	padding: 25px;
+}
+div.right
+{
+	float: left;
+	width: 73%;
+}
+form
+{
+	margin-top: 5px;
+	margin-bottom: 11px;
+	font-size: 15px;
+	color: white;
+}
+.name
+{
+	margin-left: 93px;
+}
+.sname
+{
+	margin-left: 45px;
+}
+.price
+{
+	margin-left: 90px;
+}
+.quantity
+{
+	margin-left: 68px;
+}
+.currency
+{
+	margin-left: 65px;
+}
+.exchange
+{
+	margin-left: 25px;
+}
+.comments
+{
+	margin-left: 56px;
+}
+.image
+{
+	margin-left: 84px;
+}
+.mail
+{
+	margin-left: 85px;
+}
+.notify
+{
+	margin-left: 48px;
+}
+div.share p
+{
+	background-color: #5B2AA8;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+div.share img
+{
+	width: 20px;
+	height: 20px;
+}
+nav.extras a
+{
+	color: white;
+	text-decoration: none;
+}
+nav.extras p
+{
+	display: inline-block;
+	font-size: 15px;
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+footer
+{
+	clear: left;
+	float: left;
+	font-size: 15px;
+	width: 97.39%;
+	padding: 5px;
+	background-color: #5B2AA8;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+	div a
+	{
+		font-size: 10px;
+	}
+	div ul, li
+	{
+		padding: 10px;
+	}
+	form
+	{
+		margin-bottom: 5px;
+		margin-top: 5px;
+		font-size: 10px;
+		max-width:100%;
+	}
+	nav.extra p
+	{
+		font-size:10px;
+	}
+}
+@media only screen and (max-width:480px)
+{
+	header, footer
+	{
+		margin: 0px;
+	}
+	nav p
+	{
+		padding: 5px;
+		font-size: 10px;
+		margin-top: 10px;
+	}
+	marquee
+	{
+		font-size: 15px;
+		padding: 5px;
+	}
+	div a
+	{
+		font-size: 5px;
+	}
+	div.left, div.right
+	{
+		width: 100%
+	}
+	div ul, li
+	{
+		padding: 5px;
+	}
+	form
+	{
+		margin: 0px;
+		font-size: 5px;
+		max-width: 100%;	
+	}
+	div.share p, div.share img
+	{
+		font-size: 10px;
+		width: 10px;
+		height: 10px;
+		margin-bottom: 5px;
+	}
+	nav.extra p
+	{
+		font-size: 5px;
+		margin-bottom: 5px;
+	}
+	footer
+	{
+		font-size: 10px;
+		padding: 0px;
+		margin-top:5px;
+		margin-bottom: 5px;
+	}
+}
